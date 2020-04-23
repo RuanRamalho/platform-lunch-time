@@ -1,0 +1,109 @@
+/*
+ * 
+ * Components > Login
+ * 
+ */
+
+/* MOBILE STYLES ------------------------------------------------------------*/
+form {
+    margin-top: 445px;
+    min-height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    border: 3px solid #dc3545;
+  }
+ 
+  .box{
+    width: 100%;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: $black;
+    text-align: center;
+    border: 3px solid #dc3545;
+    
+    h1 {
+        color: white;
+        font-weight: 500;
+    }
+
+    p {
+        color: white;
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.185);
+
+        &:hover {
+            color: #dc3545;
+        }
+    }
+
+    input[type = "text"], input[type = "password"]{
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #dc3545;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+
+        &:focus, [type = "password"]:focus{
+            width: 280px;
+            border-color: #dc3545;
+          }
+
+        [type = "text"]&:focus, [type = "password"]&:focus{
+            width: 280px;
+            border-color: #dc3545;
+          }
+
+        [type = "submit"]{
+            border:0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #dc3545;
+            padding: 14px 40px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+            cursor: pointer;
+          }
+
+        [type = "submit"]:hover{
+            background: #dc3545;
+          }
+
+        btn-login {
+            margin-bottom: 150px;
+        }
+        
+      }
+    
+  }
+
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+  
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

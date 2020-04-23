@@ -1,0 +1,61 @@
+/*
+ * 
+ * Site > Publicity
+ * 
+ */
+
+/* MOBILE STYLES ------------------------------------------------------------*/
+
+
+  /* MEDIA QUERY ------------------------------------------------------------*/
+  
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: $screen-sm-min) {
+    #publicity{
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    
+    #publicity p{
+        font-size: 13px;
+        font-weight: bold;
+        
+    }
+
+    .btn-cadastro {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+
+  }
+  
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: $screen-md-min) {
+    #publicity{
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+    }
+    
+    #publicity h3{
+        font-size: 21px;
+        font-weight: bold;
+    }
+    
+    #publicity p{
+        font-size: 13px;
+        font-weight: bold;
+        
+    }
+    
+    #publicity a{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+  }
+  
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: $screen-lg-min) {
+  }
+  

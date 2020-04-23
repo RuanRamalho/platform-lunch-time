@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap e CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lW UE00s/" crossorigin="anonymous">
+
+    <title>Hora do Almoço - Restaurantes</title>
+    <link rel="shortcut icon" href="../image/icons/browser-icon.png">
+</head>
+
+<body>
+    <section class="preloader">
+        <div id="loader" class="loader">
+            <p class="logo-carregamento"><img class="img-fluid" src="../../src/image/logo/logo-laranja.png"></p>
+        </div>
+        <div style="display:none" id="tudo_page"></div>
+    </section>
+
+    <header id="menuHeader">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bd-navbar bg-dark">
+            <div id="logo-vermelha">
+                <a href="../../index.html"><img src="../../src/image/logo/logo-vermelha.png"
+                        alt="Logo a hora do almoço"></a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="../../index.html" class="nav-link text-white">INÍCIO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="../../index.html#sobre" class="nav-link text-white">SOBRE</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">RESTAURANTES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./login.html" class="nav-link text-white">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="restaurants-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="main-title display-4">Escolha a sua dieta:</h3>
+                </div>
+                <div class="col-md-12" align="center" id="filter-btn-box">
+                    <button class="col-12 col-md-2 btn btn-lg btn-danger main-btn filter-btn my-2"
+                        id="all-btn">Todos</button>
+                    <button class="col-12 col-md-2 btn btn-lg btn-danger main-btn filter-btn my-2"
+                        id="gm-btn">Muscular</button>
+                    <button class="col-12 col-md-2 btn btn-lg btn-danger main-btn filter-btn my-2"
+                        id="gp-btn">Engordar</button>
+                    <button class="col-12 col-md-2 btn btn-lg btn-danger main-btn filter-btn my-2"
+                        id="pp-btn">Emagrecer</button>
+                </div>
+
+                <!--Área de Emagrecer-->
+                <div class="col-md-4 project-box pp mt-5" id="efeito">
+                    <img src="../image/restaurantes/mr-fit.jpg" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-9 col-md-9">
+                            <h4>Mr.Fit</h4>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href=""><i class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments"
+                                href="https://www.google.com/maps/search/mr.fit+Recife/@-8.0635786,-34.9487383,11.75z"
+                                target="_blank"><i class="fas fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-box pp mt-5" id="efeito">
+                    <img src="../image/restaurantes/penseeleve.png" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-9 col-md-9">
+                            <h4>Pense leve</h4>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href=""><i class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href="https://goo.gl/maps/RYiahPMK8BdMAR6PA" target="_blank"><i
+                                    class="fas fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-box pp mt-5" id="efeito">
+                    <img src="../image/restaurantes/acaiconcept.png" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-9 col-md-9">
+                            <h4>Açaí Concept</h4>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href=""><i class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments"
+                                href="https://www.google.com/maps/search/acai+concept+recife/@-8.0850988,-34.9196212,12z"
+                                target="_blank"><i class="fas fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Área de Muscular-->
+                <div class="col-md-4 project-box gm mt-5" id="efeito">
+                    <img src="../image/restaurantes/spettus.jpg" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-9 col-md-9">
+                            <h4>Spettus</h4>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href=""><i class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href="https://goo.gl/maps/NzuCEkfvrxXL6eG78" target="_blank"><i
+                                    class="fas fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-box gm mt-5" id="efeito">
+                    <img src="../image/restaurantes/bodeno.png" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-9 col-md-9">
+                            <h4>Bode do Nô</h4>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href=""><i class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href="https://g.page/bodebv?share" target="_blank"><i
+                                    class="fas fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-box gm mt-5" id="efeito">
+                    <img src="../image/restaurantes/salebrasa.png" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-9 col-md-9">
+                            <h4>Sal e Brasa</h4>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href=""><i class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href="https://goo.gl/maps/5fK9mXzo2fhjC6uC8" target="_blank"><i
+                                    class="fas fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Área de Engordar-->
+                <div class="col-md-4 project-box gp mt-5" id="efeito">
+                    <img src="../image/restaurantes/bk.jpg" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-9 col-md-9">
+                            <h4>Burguer King</h4>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href=""><i class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href="https://goo.gl/maps/xfGvNW8cXkntPqT26" target="_blank"><i
+                                    class="fas fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-box gp mt-5" id="efeito">
+                    <img src="../image/restaurantes/Mac.png" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-9 col-md-9">
+                            <h4>Mac Donald's</h4>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href=""><i class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments"
+                                href="https://www.google.com/maps/search/mcdonald's+Recife/@-8.0647809,-34.9065236,12.54z"
+                                target="_blank"><i class="fas fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-box gp mt-5" id="efeito">
+                    <img src="../image/restaurantes/atlantico.jpg" class="img-fluid" alt="">
+                    <div class="row">
+                        <div class="col-9 col-md-9">
+                            <h4>Restaurante e Pizzaria Atlântico</h4>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href=""><i class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <a class="comments" href="https://goo.gl/maps/6MpyoYgVDUMaj5Tp8" target="_blank"><i
+                                    class="fas fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-light mt-3 p-2">
+        <div class="container-fluid mb-2" id="footer">
+            <div class="row">
+                <div class="col-md-2 mt-5 mb-3" align="center">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary"><a href="http://www.facebook.com/"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a></button>
+                        <button type="button" class="btn btn-secondary"><a href="http://www.instagram.com/"
+                                target="_blank"><i class="fab fa-instagram"></i></a></button>
+                        <button type="button" class="btn btn-secondary"><a href="http://www.twitter.com/"
+                                target="_blank"><i class="fab fa-twitter"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-8" align="center">
+                    <p><img src="../../src/image/logo/logo-branca.png"></p>
+                    <h3> &copy 2020 Copyright: Hora do Almoço</h3>
+                </div>
+
+                <div class="col-md-2 mt-5 " align="center">
+                    <i class="icon-wolves fab fa-wolf-pack-battalion"> Official Wolves</i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <!-- Script para fazer o Preload -->
+    <script type="text/javascript" src="../js/preloader.js"></script>
+    <!-- Script para filtrar restaurantes -->
+    <script type="text/javascript" src="../js/filter.js"></script>
+
+
+</body>
+
+</html>

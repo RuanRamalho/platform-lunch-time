@@ -9,12 +9,14 @@
 
 // Site
 @import "sass/site/site-base";
+@import "sass/site/site-carousel";
 @import "sass/site/site-footer";
 @import "sass/site/site-header";
-@import "sass/site/site-nav";
-@import "sass/site/site-sidebar";
-@import "sass/site/section-about";
-@import "sass/site/section-consult";
-@import "sass/site/section-contact";
-@import "sass/site/section-service";
-@import "sass/site/section-solution";
+@import "sass/site/site-preloader";
+@import "sass/site/site-publicity";
+@import "sass/site/site-effect";
+
+// Components
+@import "sass/components/restaurants-comments";
+@import "sass/components/restaurants-title";
+@import "sass/components/form-login";

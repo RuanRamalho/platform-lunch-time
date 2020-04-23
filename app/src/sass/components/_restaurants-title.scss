@@ -1,0 +1,33 @@
+/*
+ * 
+ * Site > Base
+ * 
+ */
+
+/* MOBILE STYLES ------------------------------------------------------------*/
+    .main-title {
+      margin-top: 20%;
+    }
+
+  /* MEDIA QUERY ------------------------------------------------------------*/
+  
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: $screen-sm-min) {
+    .main-title {
+      margin-top: 13%;
+      text-align: center;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    .main-title {
+        margin-top: 13%;
+        text-align: center;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

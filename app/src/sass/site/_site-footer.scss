@@ -7,16 +7,108 @@
 /* MOBILE STYLES ------------------------------------------------------------*/
 
 footer {
+    background-color: $black;
+    bottom: 0;
+    left: 0;
+    width: 100%;  
+    position: absolute;
+    
+    .btn-group {
+        button {
+            width: 55px; 
+            height: 55px;
+            border-radius: 50%;
+            border-color: #293541;
+            background: #293541;
+
+            &:hover {
+                background: #dc3545;
+                border-color: #dc3545;
+            }
+            
+            i {
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+    
 }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
+    footer{
+        font-family: 'Roboto Slab', sans-serif;
+        background-color: $black;
+        
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .icon-wolves {
+           margin-left: -30px;
+        }
+
+    }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+    .btn-group {
+        button {
+            width: 55px; 
+            height: 55px;
+            border-radius: 50%;
+            border-color: #293541;
+            background: #293541;
+        }
+
+        &:hover {
+            background: #dc3545;
+            border-color: #dc3545;
+        }
+
+        i {
+            color: white;
+            font-size: 20px;
+        }
+
+    }
+
+    .btn-secondary {
+        a i {
+            transition: 0.5s all; 
+        }
+
+        a:hover > i {
+            transform: scale(2.4) rotate(26deg); 
+        }
+    }
+
+    footer{
+        font-family: 'Roboto Slab', sans-serif;
+        background-color: $black;
+       
+
+        & h3 {
+            font-weight: bold;
+            font-size: 21px;
+        }
+
+        & h4 {
+            font-size: 16px;
+        }
+
+        & p {
+            font-size: 13px;
+        }
+
+    }
+    
 }
 
 /* Large devices (large desktops, 1200px and up) */

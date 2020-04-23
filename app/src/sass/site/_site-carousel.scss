@@ -1,0 +1,33 @@
+/*
+ * 
+ * Site > Sidebar
+ * 
+ */
+
+/* MOBILE STYLES ------------------------------------------------------------*/
+#carouselCaptions {
+    margin-top: 63px;
+}
+/* MEDIA QUERY ------------------------------------------------------------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+   
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    /*#carouselCaptions {
+        margin-top: 63px;
+    }
+    
+    .btn {
+        position: relative;
+    }*/
+    
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}

@@ -14,6 +14,19 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+    .navbar ul li{
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .navbar ul li a:hover{
+        color:  #c83a17!important;
+        transition: 0.2s;
+    }
+    
+    #logo-scroll {
+        list-style: none;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */

@@ -1,0 +1,32 @@
+/*
+ * 
+ * Site > Base
+ * 
+ */
+
+/* MOBILE STYLES ------------------------------------------------------------*/
+    .comments {
+      font-size: 20px;
+    }
+
+  /* MEDIA QUERY ------------------------------------------------------------*/
+  
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: $screen-sm-min) {
+    .comments {
+        font-size: 18px;
+    }
+  }
+  
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: $screen-md-min) {
+    .comments {
+        font-size: 20px;
+    }
+
+  }
+  
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: $screen-lg-min) {
+  }
+  
