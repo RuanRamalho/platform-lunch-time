@@ -16,19 +16,18 @@
 
     <!--Título da Pagina-->
     <title>Hora do Almoço - Restaurantes</title>
-    <link rel="shortcut icon" href="../image/icons/browser-icon.png">
+    <link rel="shortcut icon" href="../image/Icons/browser-icon.png">
 </head>
 
 <body>
-    <!--Efeito preloader-->
-    <div id="loader" class="loader">
-        <p class="logo-carregamento"><img class="img-fluid" src="../image/logo-laranja.png"></p>
-    </div>
-    <div style="display:none" id="tudo_page"></div>
+    <section class="preloader">
+        <div id="loader" class="loader">
+            <p class="logo-carregamento"><img class="img-fluid" src="../image/logo/logo-laranja.png"></p>
+        </div>
+    </section>
 
-    <!--Menu-->
     <header id="menuHeader">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bd-navbar bg-primary">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bd-navbar bg-black">
             <div id="logo-vermelha">
                 <a href="../index.html"><img src="../image/logo/logo-vermelha.png" alt="Logo a hora do almoço"></a>
             </div>
@@ -40,11 +39,11 @@
             <div class="collapse navbar-collapse" id="navbarSite">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="../index.html" class="nav-link text-white">INÍCIO</a>
+                        <a href="../../index.html" class="nav-link text-white">INÍCIO</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="../index.html#sobre" class="nav-link text-white">SOBRE</a>
+                        <a href="../../index.html#sobre" class="nav-link text-white">SOBRE</a>
                     </li>
 
                     <li class="nav-item">
@@ -52,15 +51,16 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">LOGIN</a>
+                        <a href="../html/login.html" class="nav-link text-white">LOGIN</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
 
-        <form class="box col-12 col-md-8" action="index.html" method="post">
-            <p><img src="../image/logo-vermelha.png"></p>
+    <div class="form-register">
+        <form class="box col-12 col-md-8" action="index.html" id="register" method="post">
+            <p><img src="../image/logo/logo-vermelha.png"></p>
             <input type="text" name="" placeholder="Nome de usuário">
             <input type="text" name="" placeholder="E-mail">
             <input type="password" name="" placeholder="CPF">
@@ -68,36 +68,8 @@
             <input type="password" name="" placeholder="Senha">
             <input type="password" name="" placeholder="Confirmar Senha">
             <input href="#" type="submit" name="" value="Registrar">
-          
-         
         </form>
- 
-
-      <!-- Rodapé -->
-  <footer class="bg-primary text-light p-3">
-    <div class="container-fluid mb-2" id="footer">
-      <div class="row">
-        <div class="col-md-2 mt-5 mb-3" align="center">
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-secondary"><a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></button>
-                <button type="button" class="btn btn-secondary"><a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></button>
-                <button type="button" class="btn btn-secondary"><a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></button>
-            </div>
-        </div>
-
-        <div class="col-md-8" align="center">
-          <p><img src="../image/logo-branca.png"></p>
-          <h3> 2020 &copy Hora do Almoço</h3>
-          <p>Hospedado pelo Meu Diretorio</p>
-        </div>
-
-        <div class="col-md-2 mt-5 " align="center">
-          <i class="fab fa-wolf-pack-battalion"> Official Wolves</i>
-        </div>
-      </div>
     </div>
-  </footer>
-
 
 
     <!-- Optional JavaScript -->

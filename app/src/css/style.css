@@ -110,6 +110,8 @@ footer {
   left: 0;
   width: 100%;
   position: absolute; }
+  footer h3 {
+    font-size: 17px; }
   footer .btn-group button {
     width: 55px;
     height: 55px;
@@ -130,7 +132,7 @@ footer {
     font-family: 'Roboto Slab', sans-serif;
     background-color: #373737; }
     footer h3 {
-      font-size: 20px; }
+      font-size: 18px; }
     footer .icon-wolves {
       margin-left: -30px; } }
 
@@ -214,23 +216,9 @@ footer {
  * 
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
-/* MEDIA QUERY ------------------------------------------------------------*/
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  #publicity {
-    font-family: 'Roboto Slab', serif; }
-  #publicity p {
-    font-size: 13px;
-    font-weight: bold; }
-  .btn-cadastro {
-    font-size: 14px;
-    font-weight: bold; } }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  #publicity {
-    font-family: 'Roboto Slab', serif;
-    text-align: center; }
+#publicity {
+  font-family: 'Roboto Slab', serif;
+  text-align: center; }
   #publicity h3 {
     font-size: 21px;
     font-weight: bold; }
@@ -239,7 +227,60 @@ footer {
     font-weight: bold; }
   #publicity a {
     font-size: 14px;
+    font-weight: bold; }
+
+.btn-cadastro {
+  font-size: 14px;
+  font-weight: bold; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #publicity {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    height: 300px; }
+    #publicity .card-clientes {
+      height: 10rem; }
+    #publicity h3 {
+      font-size: 21px;
+      font-weight: bold; }
+    #publicity p {
+      font-size: 8px;
+      font-weight: bold; }
+    #publicity a {
+      font-size: 14px;
+      font-weight: bold; }
+  .btn-cadastro {
+    font-size: 14px;
     font-weight: bold; } }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #publicity {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    height: 200px; }
+    #publicity .card-clientes {
+      height: 12rem; }
+    #publicity h3 {
+      font-size: 21px;
+      font-weight: bold; }
+    #publicity p {
+      font-size: 8px;
+      font-weight: bold; }
+    #publicity a {
+      font-size: 14px;
+      font-weight: bold; }
+    #publicity h3 {
+      font-size: 21px;
+      font-weight: bold; }
+    #publicity p {
+      font-size: 13px;
+      font-weight: bold; }
+    #publicity a {
+      font-size: 14px;
+      font-weight: bold; } }
 
 /* Large devices (large desktops, 1200px and up) */
 /*
@@ -263,9 +304,31 @@ body {
     position: relative;
     top: 0;
     transition: all .2s ease-in-out; }
-  #efeito:hover {
-    top: -4px;
-    box-shadow: 0 6px 8px #999; } }
+    #efeito:hover {
+      top: -4px;
+      box-shadow: 0 6px 8px #999; } }
+
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > Base
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #about img {
+    margin-top: 3rem;
+    height: 15rem; } }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #about img {
+    margin-top: auto;
+    height: auto; }
+  #about p {
+    font-size: 18px; } }
 
 /* Large devices (large desktops, 1200px and up) */
 /*
@@ -319,34 +382,31 @@ body {
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
 form {
-  margin-top: 445px;
-  min-height: 100vh;
-  position: relative;
+  top: 370px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
   font-family: sans-serif;
   border: 3px solid #dc3545; }
 
 .box {
   width: 100%;
   padding: 40px;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #373737;
   text-align: center;
   border: 3px solid #dc3545; }
-
-.box h1 {
-  color: white;
-  font-weight: 500; }
-
-.box p {
-  color: white; }
-
-.box a {
-  color: rgba(255, 255, 255, 0.185); }
-
-.box a:hover {
-  color: #dc3545; }
+  .box h1 {
+    color: white;
+    font-weight: 500; }
+  .box p {
+    color: white; }
+  .box a {
+    color: rgba(255, 255, 255, 0.185); }
+    .box a:hover {
+      color: #dc3545; }
 
 .box input[type="text"], .box input[type="password"] {
   border: 0;
@@ -385,6 +445,39 @@ form {
 
 .btn-login {
   margin-bottom: 150px; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  form {
+    top: 500px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%; } }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  form {
+    top: 370px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%; } }
+
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > Base
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+.register {
+  margin-top: 400px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */

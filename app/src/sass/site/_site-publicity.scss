@@ -5,7 +5,30 @@
  */
 
 /* MOBILE STYLES ------------------------------------------------------------*/
+#publicity{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
 
+    h3 {
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    a {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+.btn-cadastro {
+    font-size: 14px;
+    font-weight: bold;
+}
 
   /* MEDIA QUERY ------------------------------------------------------------*/
   
@@ -13,20 +36,33 @@
   @media (min-width: $screen-sm-min) {
     #publicity{
         font-family: 'Roboto Slab', serif;
-    }
-    
-    
-    #publicity p{
-        font-size: 13px;
-        font-weight: bold;
-        
-    }
+        text-align: center;
+        height: 300px;
 
+        .card-clientes {
+            height: 10rem;
+        }
+
+        h3 {
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 8px;
+            font-weight: bold;
+        }
+
+        a {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+    
     .btn-cadastro {
         font-size: 14px;
         font-weight: bold;
     }
-
 
   }
   
@@ -35,23 +71,44 @@
     #publicity{
         font-family: 'Roboto Slab', serif;
         text-align: center;
-    }
-    
-    #publicity h3{
-        font-size: 21px;
-        font-weight: bold;
-    }
-    
-    #publicity p{
-        font-size: 13px;
-        font-weight: bold;
+        height: 200px;
+
+        .card-clientes {
+            height: 12rem;
+        }
+
+        h3 {
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 8px;
+            font-weight: bold;
+        }
+
+        a {
+            font-size: 14px;
+            font-weight: bold;
+        }
         
+        h3 {
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        a {
+            font-size: 14px;
+            font-weight: bold;
+        }
     }
+
     
-    #publicity a{
-        font-size: 14px;
-        font-weight: bold;
-    }
     
   }
   
