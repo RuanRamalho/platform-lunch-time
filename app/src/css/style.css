@@ -30,6 +30,10 @@
  * Modules > Fonts
  * 
  */
+#maps {
+  color: white;
+  text-decoration: none; }
+
 /*
  * 
  * Modules > Inputs
@@ -118,7 +122,7 @@ footer {
     border-radius: 50%;
     border-color: #293541;
     background: #293541; }
-    footer .btn-group button:hover {
+    footer .btn-group button button:hover {
       background: #dc3545;
       border-color: #dc3545; }
     footer .btn-group button i {
@@ -344,7 +348,10 @@ body {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .comments {
-    font-size: 18px; } }
+    font-size: 18px;
+    color: red; }
+    .comments:hover {
+      color: black; } }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
