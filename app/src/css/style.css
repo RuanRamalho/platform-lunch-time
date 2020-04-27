@@ -472,9 +472,9 @@ form {
  * 
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
-.register {
-  margin-top: 400px;
-  left: 0;
+#register {
+  margin-top: 36px;
+  left: 50%;
   bottom: 0;
   right: 0;
   height: 100%; }
@@ -482,4 +482,12 @@ form {
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #register {
+    margin-top: 400px;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+    height: 100%; } }
+
 /* Large devices (large desktops, 1200px and up) */

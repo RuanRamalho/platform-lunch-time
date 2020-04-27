@@ -5,9 +5,9 @@
  */
 
 /* MOBILE STYLES ------------------------------------------------------------*/
-    .register {
-        margin-top: 400px;
-        left: 0;
+    #register {
+        margin-top: 36px;
+        left: 50%;
         bottom: 0;
         right: 0;
         height: 100%;
@@ -22,7 +22,13 @@
   
   /* Medium devices (desktops, 992px and up) */
   @media (min-width: $screen-md-min) {
-    
+    #register {
+        margin-top: 400px;
+        left: 50%;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+    }
   }
   
   /* Large devices (large desktops, 1200px and up) */
