@@ -15,6 +15,11 @@
   @media (min-width: $screen-sm-min) {
     .comments {
         font-size: 18px;
+        color: red;
+
+        &:hover{
+          color: black;
+        }
     }
   }
   
