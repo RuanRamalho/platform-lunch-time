@@ -30,6 +30,10 @@
  * Modules > Fonts
  * 
  */
+#maps {
+  color: white;
+  text-decoration: none; }
+
 /*
  * 
  * Modules > Inputs
@@ -203,7 +207,7 @@ footer {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url("../../image/Icons/Loading.gif") 50% 50% no-repeat white; }
+    background: url("../image/Icons/Loading.gif") 50% 50% no-repeat white; }
   .logo-carregamento {
     margin: auto;
     text-align: center;
@@ -344,7 +348,10 @@ body {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .comments {
-    font-size: 18px; } }
+    font-size: 18px;
+    color: red; }
+    .comments:hover {
+      color: black; } }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
