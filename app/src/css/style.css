@@ -196,6 +196,20 @@ footer {
  * 
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("../image/Icons/Loading.gif") 50% 50% no-repeat white; }
+
+.logo-carregamento {
+  margin: auto;
+  text-align: center;
+  margin-top: 5%; }
+
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -342,7 +356,10 @@ body {
  */
 /* MOBILE STYLES ------------------------------------------------------------*/
 .comments {
-  font-size: 20px; }
+  font-size: 20px;
+  color: red; }
+  .comments:hover {
+    color: black; }
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
